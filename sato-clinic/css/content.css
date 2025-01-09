@@ -1,4 +1,7 @@
 @charset "UTF-8";
+* {
+  outline: 1px solid blue;
+}
 html {
   font-size: 10px;
 }
@@ -566,7 +569,7 @@ header .headerInner .nav.active {
 .staff4:after {
   content: url(../img/images/image37.png);
   position: absolute;
-  padding-left: 120px;
+  /* padding-left: 120px; */
   margin-top: -130px;
 }
 @media screen and (max-width: 680px) {
