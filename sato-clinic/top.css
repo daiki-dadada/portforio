@@ -987,7 +987,7 @@ th {
 @media screen and (max-width: 680px) {
   .block11 {
     display: flex;
-    width: 370px;
+    width: 180px;
     height: 180px;
   }
 }
@@ -997,9 +997,9 @@ th {
 @media screen and (max-width: 680px) {
   .block12 {
     display: flex;
-    width: 370px;
+    width: 180px;
     height: 180px;
-    margin-left: 0px;
+    margin-left: 10px;
   }
 }
 footer {
