@@ -566,10 +566,10 @@ header .headerInner .nav.active {
     line-height: 1.2;
   }
 }
-.staff4:after {
+/* .staff4:after {
   content: url(../img/images/image37.png);
   position: absolute;
-  /* padding-left: 120px; */
+  padding-left: 120px;
   margin-left: 100px;
   margin-top: -130px;
 }
@@ -584,7 +584,7 @@ header .headerInner .nav.active {
     margin-left: -30px;
     margin-top: -70px;
   }
-}
+} */
 .staff4-2 {
   font-size: 2rem;
   width: 360px;
@@ -601,7 +601,7 @@ header .headerInner .nav.active {
     line-height: 1.2;
   }
 }
-.staff4-2:after {
+/* .staff4-2:after {
   content: url(../img/images/image37.png);
   position: absolute;
   margin-top: -120px;
@@ -617,7 +617,7 @@ header .headerInner .nav.active {
     margin-left: 100px;
     margin-top: -65px;
   }
-}
+} */
 .staff4-3 {
   font-size: 2rem;
   width: 390px;
@@ -634,7 +634,7 @@ header .headerInner .nav.active {
     line-height: 1.2;
   }
 }
-.staff4-3:after {
+/* .staff4-3:after {
   content: url(../img/images/image37.png);
   position: absolute;
   margin-top: -170px;
@@ -647,10 +647,10 @@ header .headerInner .nav.active {
     width: 90px;
     height: 90px;
     background-size: contain;
-    /* margin-left: 40px; */
+    margin-left: 40px;
     margin-top: -75px;
   }
-}
+} */
 .staff4-4 {
   font-size: 2rem;
   width: 350px;
@@ -667,7 +667,7 @@ header .headerInner .nav.active {
     line-height: 1.2;
   }
 }
-.staff4-4:after {
+/* .staff4-4:after {
   content: url(../img/images/image37.png);
   position: absolute;
   margin-top: -140px;
@@ -683,7 +683,7 @@ header .headerInner .nav.active {
     margin-left: 70px;
     margin-top: -65px;
   }
-}
+} */
 .staff4-5 {
   font-size: 2rem;
   width: 350px;
@@ -700,7 +700,7 @@ header .headerInner .nav.active {
     line-height: 1.2;
   }
 }
-.staff4-5:after {
+/* .staff4-5:after {
   content: url(../img/images/image37.png);
   position: absolute;
   margin-top: -140px;
@@ -716,7 +716,7 @@ header .headerInner .nav.active {
     margin-left: 105px;
     margin-top: -65px;
   }
-}
+} */
 .staff5,
 .staff8 {
   padding-left: 60px;
