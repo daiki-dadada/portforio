@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="佐藤医院のホームページ" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/koramu.css" />
+    <title>佐藤医院のホームページ</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="pc1">
+          <div class="logo">
+            <img src="../img/logo2.svg" alt="ロゴ" />
+          </div>
+        </div>
+        <div class="headerInner">
+          <div class="openbtn"><span></span><span></span><span></span></div>
+          <nav class="nav">
+            <ul class="main-nav">
+              <li class="item"><a href="../index.html">トップページ</a></li>
+              <li class="item"><a href="../content/index.html">診療内容</a></li>
+              <li class="item"><a href="../about/index.html">当院について</a></li>
+              <li class="item">
+                <a href="../detail/index.html">診療時間・所在地</a>
+              </li>
+              <li class="item">
+                <a href="../question/index.html">よくあるご質問</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header3">
+          <div class="menu">MENU</div>
+          <div class="address">
+            〒000 - 0000 <br />
+            東京都 台東区 上野
+          </div>
+          <div class="tel3">
+            <img
+              src="../img/images/image23.png"
+              alt="電話のアイコン"
+            />
+            <p class="tel4">電話</p>
+          </div>
+        </div>
+        <div class="address2">0 - 0 - 0</div>
+        <div class="tel">000 - 000 - 000</div>
+      </header>
+      <div class="midasi">コラム</div>
+        <div
+          style="border-bottom: 1px solid #000; width: 100%; height: 1px"
+        ></div>
+        <div class="block">
+          <div class="block1">
+            <div class="oshi">
+            <div class="koramu1"><img src="../img/images/image41.png" alt="コラムの写真です"></div>
+            <p class="koramu2">忘れられない笑顔の力</p></div>
+          </div>
+          <div class="block2">
+            <div class="oshi">
+            <div class="koramu1"><img src="../img/images/image42.png" alt="コラムの写真です"></div>
+            <p class="koramu2">小さな変化に気づくということ</p></div>
+        </div>
+          <div class="block3">
+            <div class="oshi">
+            <div class="koramu1"><img src="../img/images/image43.png" alt="コラムの写真です"></div>
+            <p class="koramu2">働く世代に多いストレス性疾患とその対策</p></div>
+          </div>
+        </div>
+        <footer>
+          <div class="footer1">
+            <img
+              src="../img/images/image21.png"
+              alt="上野医師連盟のバナー"
+            />
+          </div>
+          <div class="footer2">
+            <img
+              src="../img/images/image22.png"
+              alt="佐藤医院のバナー"
+            />
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      $(".openbtn").click(function () {
+        $(this).toggleClass("active");
+        $(".nav").toggleClass("active");
+      });
+    </script>
+  </body>
+</html>
