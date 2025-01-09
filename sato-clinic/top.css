@@ -981,14 +981,16 @@ th {
 @media screen and (max-width: 680px) {
   .block10 {
     display: flex;
+    width: 370px;
+    justify-content: space-between;
     margin-top: 10px;
   }
 }
 @media screen and (max-width: 680px) {
   .block11 {
     display: flex;
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
   }
 }
 .block12 {
@@ -997,8 +999,8 @@ th {
 @media screen and (max-width: 680px) {
   .block12 {
     display: flex;
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     margin-left: 10px;
   }
 }
