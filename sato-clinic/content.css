@@ -647,7 +647,7 @@ header .headerInner .nav.active {
     width: 90px;
     height: 90px;
     background-size: contain;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     margin-top: -75px;
   }
 }
@@ -695,7 +695,7 @@ header .headerInner .nav.active {
   .staff4-5 {
     font-size: 1.1rem;
     width: 200px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-top: 40px;
     line-height: 1.2;
   }
