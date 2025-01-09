@@ -647,7 +647,7 @@ header .headerInner .nav.active {
     width: 90px;
     height: 90px;
     background-size: contain;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-top: -75px;
   }
 }
@@ -713,7 +713,7 @@ header .headerInner .nav.active {
     width: 90px;
     height: 90px;
     background-size: contain;
-    margin-left: 125px;
+    margin-left: 105px;
     margin-top: -65px;
   }
 }
