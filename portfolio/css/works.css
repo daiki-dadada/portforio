@@ -1,0 +1,254 @@
+@charset "UTF-8";
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #fff3e9;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 680px) {
+  .container {
+    width: 100%;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: end;
+  margin-top: 3%;
+  margin-right: 3%;
+  gap: 2%;
+}
+.nav li {
+  font-family: "Rampart One", serif;
+  font-size: 3rem;
+  text-align: right;
+}
+@media screen and (max-width: 680px) {
+  .nav li {
+    font-size: 1.4rem;
+  }
+}
+.nav li a {
+  text-decoration: none;
+  color: #000;
+}
+.home:hover,
+.works:hover,
+.about:hover {
+  opacity: 0.9;
+  color: #630806;
+  transform: rotate(5deg);
+}
+.kaisei-decol-regular {
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-size: 6rem;
+  font-family: "Kaisei Decol";
+  margin-left: 5.2%;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 3rem;
+    padding-bottom: 3%;
+  }
+}
+p {
+  font-size: 2rem;
+  margin-left: 5.2%;
+  font-weight: bold;
+  margin-top: 3.7%;
+}
+@media screen and (max-width: 680px) {
+  p {
+    font-size: 1.6rem;
+  }
+}
+.p {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: end;
+  color: #9d9e9e;
+  margin-left: 1%;
+}
+@media screen and (max-width: 680px) {
+  .p {
+    font-size: 1.2rem;
+    margin-left: 5.7%;
+    margin-top: 2%;
+  }
+}
+.block {
+  display: flex;
+}
+@media screen and (max-width: 680px) {
+  .block {
+    display: block;
+  }
+}
+.url {
+  font-size: 1.6rem;
+}
+@media screen and (max-width: 680px) {
+  .url {
+    font-size: 1.2rem;
+  }
+}
+img {
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+@media screen and (max-width: 680px) {
+  img {
+    width: 80%;
+  }
+}
+dl {
+  display: flex;
+  width: 73%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 6%;
+  font-size: 2rem;
+  line-height: 1.7;
+}
+@media screen and (max-width: 680px) {
+  dl {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  width: 78%;
+}
+.allimg {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 5%;
+}
+.allimg1 {
+  width: 85%;
+}
+.allimg2 {
+  width: 10%;
+}
+.imgall {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1.5px solid #000;
+  margin-top: 1%;
+  padding-top: 3%;
+}
+.imgall img {
+  width: 90%;
+}
+.imgall2 {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+.imgall2 img {
+  width: 68%;
+}
+
+h2 {
+  font-size: 5rem;
+  font-family: "Kaisei Decol";
+  margin-left: 5.2%;
+  letter-spacing: 1px;
+  margin-top: 5%;
+}
+@media screen and (max-width: 680px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
+.img4:hover,
+.img5:hover,
+.img11:hover,
+.img12:hover,
+.img13:hover,
+.img14:hover,
+.img15:hover {
+  animation: zoom 0.7s;
+  opacity: 0.9;
+}
+@keyframes zoom {
+  50% {
+    transform: scale(1.05);
+  }
+}
+footer {
+  border-top: 1.5px solid #000;
+  margin-top: 5%;
+  background-color: #000;
+}
+.footer {
+  display: flex;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 16%;
+}
+@media screen and (max-width: 680px) {
+  .footer {
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .block2-1 img {
+    width: 88%;
+  }
+}
+.footer li {
+  font-size: 2.2rem;
+}
+@media screen and (max-width: 680px) {
+  .footer li {
+    font-size: 1.6rem;
+  }
+}
+
+.footer li a {
+  text-decoration: none;
+  color: #fff3e9;
+}
+.footer li:nth-child(4) {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  color: yellow;
+}
+@media screen and (max-width: 680px) {
+  .footer li:nth-child(4) {
+    display: none;
+  }
+}
+small {
+  display: none;
+}
+@media screen and (max-width: 680px) {
+  small {
+    display: flex;
+    color: yellow;
+    justify-content: center;
+    margin-top: 2%;
+    padding-bottom: 2%;
+  }
+}
